@@ -32,3 +32,7 @@ This plugin is released under an [MIT license](./LICENSE).
 ## Metadata Version
 
 2
+
+## Credits
+
+Inspired by [ghidra_ExportToX64dbg](https://github.com/schlafwandler/ghidra_ExportToX64dbg)
