@@ -1,4 +1,4 @@
-# BinjaExportTox64dbg (v1.0.1)
+# BinjaExportTox64dbg (v1.0.2)
 Author: **moval0x1**
 
 _Export notations from Binja to x64dbg_
