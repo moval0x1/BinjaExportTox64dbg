@@ -89,12 +89,7 @@ def main(bv):
         
         for symbol in bv.symbols.items():
             label = symbol[0]
-            symbol_splited = str(bv.symbols.get(label)).split('>')[0]
-
-            if label.startswith('__') or "@" not in symbol_splited:
-                continue
-
-            addr = int(str(bv.symbols.get(label)).split('>')[0].split('@')[1].replace('x','').strip(),16)
+            addr = bv.get_symbol_by_raw_name(label).address
             
             if label:
                 text = label
